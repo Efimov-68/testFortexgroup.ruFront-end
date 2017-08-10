@@ -1,0 +1,135 @@
+html{
+	background-color: #f2f2f2;
+	font-family: helvetica;
+}
+
+#header{
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	padding: 0px;
+}
+
+#header div{
+	float: left;
+	font-size: 12px;
+}
+
+#banner h2{
+	font-size: 1.3em;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+#banner span{
+	font-size: 10px;
+	color: lightgrey;
+}
+
+#option-size{
+	margin-bottom: 10px;
+	margin-left: 25%; 
+}
+#option-size-paragraph{
+	font-family: helvetica;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0%; 
+}
+#option-size-paragraph select{
+	background: #ffffff /*url(./triangle-down-512.png) 100% center no-repeat*/;
+	height: 28px;
+	width: 120px;
+	margin-left: 10px;
+	border: 0px solid lightgrey;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px lightgrey;
+	cursor: pointer;
+}
+#option-size-paragraph select:hover{
+	background: #ffffff /*url(./strelka-vniz.png) 100% center no-repeat*/;
+	height: 28px;
+	width: 120px;
+	margin-left: 10px;
+	border: 0px solid lightgrey;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px lightgrey;
+}
+#option-size-paragraph option{
+	background-color: white;
+	height: 20px;
+	padding: 10px;
+	color: black;
+	border: 0 solid grey;
+}
+#option-size-paragraph option:checked {
+  background: #f2f2f2 linear-gradient(#f2f2f2, #f2f2f2);
+  color: black;
+}
+
+#allcontents{
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 3%; 
+}
+
+#delete{
+	margin-top: 20px;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 27%;
+}
+
+#delete input{
+	background-color: lightgrey;
+	height: 28px;
+	width: 100px;
+	border: 0 solid lightgrey;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+}
+
+#delete input:hover{
+	background-color: darkred;
+	height: 28px;
+	width: 100px;
+	border: 0 solid lightgrey;
+	border-radius: 3px;
+	color: white;
+}
+
+#data-size table{
+	width: 97%;
+	height: 100%;
+	margin-top: 6%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px solid black;
+	border-spacing: 10px;
+}
+#data-size td{
+	background-color: rgba(0,0,0,.2);
+	width: 50px;
+	height: 80px;
+	margin: 5%;
+	border: 2px solid rgba(0,0,0,.0);
+}
+#data-size td:hover{
+	background-color: rgba(0,0,0,.5);
+	border: 2px solid red;
+}
+#data-size td input{
+	float: left;
+	margin-top: 60px;
+}
+.checkInput{
+	background-color: rgba(0,0,0,.5);
+	border: 2px solid red;
+}
