@@ -10,7 +10,8 @@ $(document).ready(function(){
     }else{
       $('td input[type="checkbox"]').hide();
     }
-  })//end input show() - hide()
+  });
+  //end input show() - hide()
 
   //Allcontents checked
   $('#allcontents input[name="allcontents"]').click(function(){
@@ -26,7 +27,7 @@ $(document).ready(function(){
   //***Delete checked
   $('#delete input[type="submit"').click(function(){
     if ($('input[type="checkbox"]').prop('checked') == true) {
-      $('#data-size td').hide();
+      $('#data-table td').hide();
     }else{
       false;
     }
