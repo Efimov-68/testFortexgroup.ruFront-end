@@ -126,6 +126,7 @@ html{
 	border: 2px solid red;
 }
 #data-size td input{
+	display: none;
 	float: left;
 	margin-top: 60px;
 }
