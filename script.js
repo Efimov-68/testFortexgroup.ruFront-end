@@ -2,13 +2,15 @@ $(document).ready(function(){
   $('td input[type="checkbox"]').hide();
 
   //end hide()
+
+  //input show() - hide()
   $('#allcontents input[name="allcontents"]').click(function(){
     if ($('#allcontents input[name="allcontents"]').prop('checked') == true) {
       $('td input[type="checkbox"]').show();
     }else{
       $('td input[type="checkbox"]').hide();
     }
-  });
+  })//end input show() - hide()
 
   //Allcontents checked
   $('#allcontents input[name="allcontents"]').click(function(){

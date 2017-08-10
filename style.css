@@ -97,7 +97,7 @@ html{
 }
 
 #delete input:hover{
-	background-color: darkred;
+	background-color: red;
 	height: 28px;
 	width: 100px;
 	border: 0 solid lightgrey;
